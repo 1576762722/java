@@ -168,7 +168,7 @@ public class ClientPicture1 {
                 String str_tip = "有文件，请处理：" + str_filename; 
                 /*
                  * 先把数据转化成字节
-                 * Datagrampacker 第一个参数是数据 第二个参数是数据长度 第三个数据是ip 第二个数据是端口
+                 * Datagrampacker 第一个参数是数据 第二个参数是数据长度 第三个数据是ip 第四个数据是端口
                  */
                 byte[] fileNameBuf = str_tip.getBytes();           
                 DatagramSocket socket = new DatagramSocket();  
